@@ -4,6 +4,7 @@ name: Debian 9
 on:
   push:
     branches:
+      - '!master'
       - 9
   schedule:
     - cron: '0 1 * * 1'
